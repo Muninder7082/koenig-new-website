@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(sed -i 's/font-dm/font-body/g' \"$f\")",
+      "Bash(done)",
+      "WebFetch(domain:koenig-website.vercel.app)"
+    ]
+  }
+}
